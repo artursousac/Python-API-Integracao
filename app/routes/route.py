@@ -1,8 +1,8 @@
 from fastapi import APIRouter
-from models.users import User
-from config.database import collection_user
-from schemas.userSchema import list
-from schemas.userSchema import individual
+from app.models.users import User
+from app.config.database import collection_user
+from app.schemas.userSchema import list
+from app.schemas.userSchema import individual
 from bson import ObjectId
 
 router = APIRouter()
